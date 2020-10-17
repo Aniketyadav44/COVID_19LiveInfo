@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asyprod.covid_19liveinfo.allCountries"
+    android:background="@color/colorPrimary"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:id="@+id/searchBar"
+        android:hint="Search"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:paddingLeft="10dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/search_bar_bg"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchBar"
+        android:id="@+id/countriesLV"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <com.leo.simplearcloader.SimpleArcLoader
+        android:visibility="visible"
+        android:id="@+id/countryLoader"
+        android:layout_centerInParent="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:arc_style="simple_arc">
+    </com.leo.simplearcloader.SimpleArcLoader>
+
+
+</RelativeLayout>

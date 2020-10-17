@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asyprod.covid_19liveinfo.donationPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🙏DONATE🙏"
+                android:textColor="#000000"
+                android:textSize="50dp"
+                android:gravity="center_horizontal"
+                android:layout_margin="15dp"/>
+            <ImageView
+                android:id="@+id/donationImage"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/donationimage"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Domestic Donors"
+                android:gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:textSize="30sp"
+                android:fontFamily="@font/customfontbold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of Account: PM CARES\nAccount Number: 2121PM20202\nIFSC Code: SBIN0000691\nUPI : pmcares@sbi\n\nState Bank Of India,\nNew Delhi Main Branch"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:fontFamily="@font/customfontbold"/>
+            <Button
+                android:id="@+id/onlinDonBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="CLICK HERE FOR ONLINE DONATION"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/customfontbold"
+                android:layout_margin="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

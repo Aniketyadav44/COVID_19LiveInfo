@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222B45</color>
+    <color name="colorPrimaryDark">#222B45</color>
+    <color name="colorAccent">#222B45</color>
+
+    <color name="confirmed">#D6368B</color>
+    <color name="active">#4297D8</color>
+    <color name="recovered">#30D593</color>
+    <color name="death">#FF0000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#9C9E9B</color>
+    <color name="blue">#11B1E1</color>
+</resources>
